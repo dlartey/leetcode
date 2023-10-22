@@ -1,2 +1,2 @@
-# leetcode-solutions
-This contains most of the leetcode problems I have solved
+# leetcode
+This repo contains the solutions to the leetcode problems I've solved.
