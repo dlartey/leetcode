@@ -37,6 +37,6 @@ class Solution:
                 table[key].neighbors.append(table[n])
  
         return table[node]
-
+# Time complexity = O(M+N), where M = number of nodes and N = number of edges
         
         
