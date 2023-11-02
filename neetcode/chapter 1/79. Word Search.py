@@ -30,5 +30,11 @@ class Solution:
             for c in range(col):
                 if board[r][c] == word[0]:
                     backtrack(r, c, word[1:])
+        # For this problem, I attempted to use backtracking if the index of the word we are searching for matches the current row & column for the grid
         
+        # Then, I check that the tempX & tempY variable I create by exploring the 4-direction is inbound, that the next index of the word matches and we haven't already visited.
+        
+        # If these conditions are matched, then we recursively call the backtrack function and return True if we can find the word in the board
+        
+        # Time complexity: O(N * 3^L)
         return self.res
